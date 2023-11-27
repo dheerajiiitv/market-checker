@@ -8,7 +8,7 @@ To create a README file for your project, you should include details about the p
 This project provides an API for checking website content against a compliance policy. It uses a language model to analyze the content of a given website and compares it with the provided compliance policy document.
 
 ## Core Functionality
-The core functionality is handled by `core.py`, which uses the LangChain library to leverage OpenAI's GPT model for compliance checking. The script splits the target website content and the compliance policy into manageable segments and compares them to determine compliance.
+The core functionality is handled by `core.py`, which uses the LangChain library to leverage OpenAI's GPT model for compliance checking. The script first index  compliance policy into a vector db and then splits the target website content into manageable segments and compares them to against compliance.
 
 ## Prerequisites
 - Python 3.9+
@@ -22,7 +22,7 @@ The core functionality is handled by `core.py`, which uses the LangChain library
 ## Installation
 1. Clone the repository:
    ```
-   git clone 
+   git clone https://github.com/dheerajiiitv/market-checker.git
    ```
 2. Navigate to the project directory and install dependencies:
    ```
