@@ -1,6 +1,4 @@
-To create a README file for your project, you should include details about the project's purpose, its structure, how to set it up, and how to use it. Below is a suggested template for your README, focusing on the `core.py` file that contains the code for the compliance checker using a language model.
 
----
 
 # Compliance Checker API
 
