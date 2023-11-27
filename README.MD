@@ -19,6 +19,8 @@ The core functionality is handled by `core.py`, which uses the LangChain library
 - LangChain
 - OpenAI
 
+export OPENAI_API_KEY=...
+
 ## Installation
 1. Clone the repository:
    ```
